@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
-});
+    return view('pages/home');
+})->name('home');
 
 Route::get('/about-me', function () {
-    return view('about');
-});
+    return view('pages/about');
+})->name('about');
