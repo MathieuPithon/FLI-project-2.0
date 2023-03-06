@@ -53,7 +53,7 @@ C'est une application web (utilisable en mobile) nécessitant une connexion, qui
 ## Technique
 - [ ] sécurité
 - [ ] Tests
-- [ ] Utilisation d'un CDN
+- [x] Utilisation d'un CDN
 
 ## Objet
 chaque objet doit avoir les informations suivantes:
