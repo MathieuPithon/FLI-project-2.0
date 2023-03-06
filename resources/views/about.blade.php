@@ -4,14 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Open Campus FLI</title>
+        <title>About me | Open Campus FLI</title>
 
     </head>
     <body>
         <h1>FLI Project</h1>
 
-        <p>il est actuellement {{date('H\hi')}}</p>
+        <p><a href="\"> revenir à la page d'accueil </a></p>
 
-        <footer>&copy; Copyright {{date('Y')}} Mathieu Pithon all right reserved &middot; <a href="/about-me"> About me </a></footer>
+        <footer>&copy; Copyright {{date('Y')}} Mathieu Pithon all right reserved &middot; <a href="/about"> About me </a></footer>
     </body>
 </html>
