@@ -28,9 +28,10 @@
             @endif
 
             <!-- Page Content -->
-            <main>
-                {{ $slot }}
+            <main class="flex flex-col justify-center items-center">
+                @yield('content')
             </main>
         </div>
+        @include('layouts.partials.footer')
     </body>
 </html>
