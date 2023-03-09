@@ -28,9 +28,9 @@ C'est une application web (utilisable en mobile) nécessitant une connexion, qui
 
 
 ## Fonctionnalités principales
-- [x] Afficher la liste des objets
-- [x] pouvoir emprunter un objet
-- [ ] gestion utilisateurs
+- [ ] Afficher la liste des objets
+- [ ] pouvoir emprunter un objet
+- [x] gestion utilisateurs
 
 ### Fonctionnalités étudiants
 - [ ] trier la liste des objets par disponibilité
@@ -42,7 +42,8 @@ C'est une application web (utilisable en mobile) nécessitant une connexion, qui
 
 ### Fonctionnalités administration
 - [ ] gérer les comptes élèves/administration
-- [x] ajouter de nouveaux objets
+- [ ] ajouter de nouveaux objets
+- [ ] ajouter plusieurs objets d'un coup
 - [ ] voir ce que chaque élève a emprunté / son historique
 - [ ] pouvoir contacter un élève (via mail)
 - [ ] gérer les règles d'emprunt (nombre d'emprunt max par personne, durée par défaut de l'emprunt/durée max)
@@ -54,6 +55,7 @@ C'est une application web (utilisable en mobile) nécessitant une connexion, qui
 - [ ] sécurité
 - [ ] Tests
 - [x] Utilisation d'un CDN
+- [ ] app responsive
 
 ## Objet
 chaque objet doit avoir les informations suivantes:
