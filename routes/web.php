@@ -29,7 +29,8 @@ Route::middleware('auth')->group(function () {
 
 Route::middleware(['auth', 'role:admin'])->group(function () {
     Route::get('/home', [ItemController::class, "index"])->name('home');
-    Route::view('/about-me', 'pages/about')->name('about');
+    Route::view('/gestion', 'pages/about')->name('gestion');
+    Route::post('/gestion', [ItemController::class, 'store'])->name('items.store');
 });
 
 require __DIR__.'/auth.php';

@@ -11,6 +11,6 @@ class Feature extends Model
 
     public function items()
     {
-        return $this->belongsToMany(Item::class)->withPivot('name');
+        return $this->belongsToMany(Item::class)->withPivot('value');;
     }
 }
