@@ -31,6 +31,7 @@ class ItemController extends Controller
         $item->category = $request->category;
         $featu
 
+        select2 JS
         // Ajouter la catégorie choisie à l'objet
         $category = Category::find($validatedData['category']);
         $item->category()->associate($category);
