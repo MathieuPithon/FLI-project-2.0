@@ -29,15 +29,11 @@ class ItemController extends Controller
         $item = new Item();
         $item->image_path = $request->image;
         $item->category = $request->category;
-        $featu
 
-        select2 JS
-        // Ajouter la catégorie choisie à l'objet
-        $category = Category::find($validatedData['category']);
-        $item->category()->associate($category);
+        // select2 JS
 
         // Ajouter les features choisies à l'objet avec leurs valeurs
-        $featuresData = collect($validatedData['features'])->mapWithKeys(function ($feature) {
+        $featuresData = collect($request->features)->mapWithKeys(function ($feature) {
             return [$feature['id'] => ['value' => $feature['value']]];
         });
         $item->features()->sync($featuresData);

@@ -30,8 +30,9 @@
 
             </td>
             <td>
+                {{-- {{$item}} --}}
                 <x-primary-button>
-                    <a href="{{ route('home') }}"> see Home </a>
+                    <a href="{{ route('home') }}"> Emprunter </a>
                 </x-primary-button>
             </td>
         </tr>
