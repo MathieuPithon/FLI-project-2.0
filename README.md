@@ -28,7 +28,7 @@ C'est une application web (utilisable en mobile) nécessitant une connexion, qui
 
 
 ## Fonctionnalités principales
-- [ ] Afficher la liste des objets
+- [x] Afficher la liste des objets
 - [ ] pouvoir emprunter un objet
 - [x] gestion utilisateurs
 
