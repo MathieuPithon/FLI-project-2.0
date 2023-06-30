@@ -1,5 +1,5 @@
 # FLI-project (Fast Lend Inventory)
- le Fast Lend Inventory Project est un projet scolaire en Laravel/Livewire qui a pour but de créer une application de gestion d'inventaire et de prêt pour l'école à destination des étudiants
+ le Fast Lend Inventory Project est un projet scolaire en Laravel qui a pour but de créer une application de gestion d'inventaire et de prêt pour l'école à destination des étudiants
  
  ## Présentation
  
