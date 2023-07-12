@@ -30,7 +30,7 @@ class ItemController extends Controller
         $item->image_path = $request->image;
         $item->category = $request->category;
 
-        // select2 JS
+
 
         // Ajouter les features choisies à l'objet avec leurs valeurs
         $featuresData = collect($request->features)->mapWithKeys(function ($feature) {
