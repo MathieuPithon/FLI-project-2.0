@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 class ItemController extends Controller
 {
     function index(){
-        ;
+        
         return view("pages/home",['items' => $items = Item::get()]);
     }
 
